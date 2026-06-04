@@ -1,0 +1,52 @@
+# LLGS Configuration File
+# 配置文件示例
+
+# 应用基本信息
+app:
+  name: "Account应用"
+  version: "1.0.0"
+  build: "1"
+  description: "用户账户管理应用"
+
+# 数据库配置
+database:
+  type: "sqlite"
+  path: "data/database.sqlite"
+  maxConnections: 10
+  timeout: 30
+
+# 网络配置
+network:
+  baseURL: "https://api.example.com/v1"
+  timeout: 60
+  retryCount: 3
+  useCache: true
+
+# 日志配置
+logging:
+  level: "debug"
+  console: true
+  file: true
+  filePath: "logs/app.log"
+  maxFileSize: 10485760
+
+# 安全配置
+security:
+  tokenExpire: 86400
+  encryption: true
+  allowedOrigins:
+    - "http://localhost:8080"
+    - "https://example.com"
+
+# 功能开关
+features:
+  pushNotifications: true
+  offlineMode: false
+  analytics: true
+  crashReporting: true
+
+# 缓存配置
+cache:
+  enabled: true
+  maxSize: 52428800
+  ttl: 3600
