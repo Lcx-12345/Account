@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="300" rx="10" fill="#f5f7fa"/>
+  
+  <rect x="30" y="30" width="160" height="240" rx="8" fill="white" stroke="#3498db" stroke-width="2"/>
+  <rect x="210" y="30" width="160" height="240" rx="8" fill="white" stroke="#e74c3c" stroke-width="2"/>
+  
+  <rect x="30" y="30" width="160" height="40" rx="8" fill="url(#grad1)"/>
+  <text x="110" y="57" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">支持的格式</text>
+  
+  <rect x="210" y="30" width="160" height="40" rx="8" fill="url(#grad2)"/>
+  <text x="290" y="57" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">不支持的格式</text>
+  
+  <rect x="50" y="90" width="120" height="24" rx="4" fill="#ecf0f1"/>
+  <text x="110" y="107" text-anchor="middle" fill="#2c3e50" font-family="Arial" font-size="12">.html .md .py</text>
+  
+  <rect x="50" y="125" width="120" height="24" rx="4" fill="#ecf0f1"/>
+  <text x="110" y="142" text-anchor="middle" fill="#2c3e50" font-family="Arial" font-size="12">.json .svg .js</text>
+  
+  <rect x="50" y="160" width="120" height="24" rx="4" fill="#ecf0f1"/>
+  <text x="110" y="177" text-anchor="middle" fill="#2c3e50" font-family="Arial" font-size="12">.css .txt .xml</text>
+  
+  <rect x="50" y="195" width="120" height="24" rx="4" fill="#ecf0f1"/>
+  <text x="110" y="212" text-anchor="middle" fill="#2c3e50" font-family="Arial" font-size="12">.yaml .csv .toml</text>
+  
+  <rect x="230" y="90" width="120" height="24" rx="4" fill="#ffebee"/>
+  <text x="290" y="107" text-anchor="middle" fill="#c0392b" font-family="Arial" font-size="12">.zip .rar .7z</text>
+  
+  <rect x="230" y="125" width="120" height="24" rx="4" fill="#ffebee"/>
+  <text x="290" y="142" text-anchor="middle" fill="#c0392b" font-family="Arial" font-size="12">.ppt .doc .xls</text>
+  
+  <rect x="230" y="160" width="120" height="24" rx="4" fill="#ffebee"/>
+  <text x="290" y="177" text-anchor="middle" fill="#c0392b" font-family="Arial" font-size="12">.pdf .jpg .png</text>
+  
+  <rect x="230" y="195" width="120" height="24" rx="4" fill="#ffebee"/>
+  <text x="290" y="212" text-anchor="middle" fill="#c0392b" font-family="Arial" font-size="12">.mp4 .mp3 .exe</text>
+  
+  <circle cx="70" y="260" r="8" fill="#27ae60"/>
+  <text x="85" y="265" fill="#27ae60" font-family="Arial" font-size="12" font-weight="bold">纯文本格式</text>
+  
+  <circle cx="250" y="260" r="8" fill="#e74c3c"/>
+  <text x="265" y="265" fill="#e74c3c" font-family="Arial" font-size="12" font-weight="bold">二进制格式</text>
+  
+  <rect x="150" y="250" width="100" height="30" rx="5" fill="#3498db" opacity="0.2"/>
+  <text x="200" y="270" text-anchor="middle" fill="#3498db" font-family="Arial" font-size="11">文件格式支持说明</text>
+</svg>

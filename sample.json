@@ -1,0 +1,96 @@
+{
+    "name": "文件格式支持说明",
+    "version": "1.0.0",
+    "description": "本文档详细说明了支持和不支持的文件格式",
+    "generated_at": "2024-01-15",
+    "supported_formats": {
+        "text": [
+            {"extension": ".txt", "description": "纯文本文件"},
+            {"extension": ".md", "description": "Markdown标记语言"},
+            {"extension": ".rst", "description": "reStructuredText"}
+        ],
+        "programming": [
+            {"extension": ".py", "description": "Python编程语言"},
+            {"extension": ".js", "description": "JavaScript编程语言"},
+            {"extension": ".ts", "description": "TypeScript编程语言"},
+            {"extension": ".java", "description": "Java编程语言"},
+            {"extension": ".go", "description": "Go编程语言"},
+            {"extension": ".rs", "description": "Rust编程语言"}
+        ],
+        "web": [
+            {"extension": ".html", "description": "超文本标记语言"},
+            {"extension": ".css", "description": "层叠样式表"},
+            {"extension": ".jsx", "description": "React JSX格式"},
+            {"extension": ".tsx", "description": "React TypeScript JSX"}
+        ],
+        "data": [
+            {"extension": ".json", "description": "JavaScript对象表示法"},
+            {"extension": ".yaml", "description": "YAML标记语言"},
+            {"extension": ".yml", "description": "YAML标记语言"},
+            {"extension": ".xml", "description": "可扩展标记语言"},
+            {"extension": ".csv", "description": "逗号分隔值表格"}
+        ],
+        "vector": [
+            {"extension": ".svg", "description": "可缩放矢量图形"}
+        ],
+        "config": [
+            {"extension": ".ini", "description": "初始化配置文件"},
+            {"extension": ".conf", "description": "配置文件"},
+            {"extension": ".toml", "description": "TOML配置格式"}
+        ]
+    },
+    "unsupported_formats": {
+        "compressed": [
+            {"extension": ".zip", "description": "ZIP压缩包"},
+            {"extension": ".tar", "description": "TAR归档文件"},
+            {"extension": ".gz", "description": "GZIP压缩文件"},
+            {"extension": ".7z", "description": "7-Zip压缩包"},
+            {"extension": ".rar", "description": "RAR压缩包"}
+        ],
+        "office": [
+            {"extension": ".ppt", "description": "PowerPoint演示文稿"},
+            {"extension": ".pptx", "description": "PowerPoint演示文稿"},
+            {"extension": ".doc", "description": "Word文档"},
+            {"extension": ".docx", "description": "Word文档"},
+            {"extension": ".xls", "description": "Excel电子表格"},
+            {"extension": ".xlsx", "description": "Excel电子表格"}
+        ],
+        "documents": [
+            {"extension": ".pdf", "description": "便携式文档格式"}
+        ],
+        "images": [
+            {"extension": ".jpg", "description": "JPEG图像"},
+            {"extension": ".jpeg", "description": "JPEG图像"},
+            {"extension": ".png", "description": "PNG图像"},
+            {"extension": ".gif", "description": "GIF动画"},
+            {"extension": ".bmp", "description": "BMP图像"}
+        ],
+        "video": [
+            {"extension": ".mp4", "description": "MP4视频"},
+            {"extension": ".avi", "description": "AVI视频"},
+            {"extension": ".mov", "description": "QuickTime视频"},
+            {"extension": ".mkv", "description": "MKV视频"}
+        ],
+        "audio": [
+            {"extension": ".mp3", "description": "MP3音频"},
+            {"extension": ".wav", "description": "WAV音频"},
+            {"extension": ".flac", "description": "FLAC音频"}
+        ],
+        "executable": [
+            {"extension": ".exe", "description": "Windows可执行文件"},
+            {"extension": ".dll", "description": "Windows动态链接库"},
+            {"extension": ".so", "description": "Linux共享对象"},
+            {"extension": ".dylib", "description": "macOS动态库"}
+        ]
+    },
+    "support_rules": {
+        "text_based": "完全支持，可读可写",
+        "binary": "不支持，无法处理",
+        "office": "有限支持，需借助外部工具"
+    },
+    "notes": [
+        "对于不支持的格式，建议使用专门的工具或应用程序处理",
+        "所有文本格式都支持语法高亮和格式化",
+        "二进制文件无法直接读取或修改"
+    ]
+}
