@@ -1,0 +1,16 @@
+{
+  "name": "format_samples",
+  "type": "demo",
+  "items": [
+    { "id": 1, "label": "md" },
+    { "id": 2, "label": "html" },
+    { "id": 3, "label": "svg" },
+    { "id": 4, "label": "python" },
+    { "id": 5, "label": "json" }
+  ],
+  "meta": {
+    "generated_by": "SOLO assistant",
+    "notes": "纯文本 JSON 可直接生成与 diff"
+  }
+}
+
