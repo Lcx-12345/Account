@@ -1,0 +1,71 @@
+{
+  "project": {
+    "name": "文件格式演示项目",
+    "version": "1.0.0",
+    "description": "展示各种文件格式的示例",
+    "created_at": "2024-01-01T00:00:00Z",
+    "license": "MIT"
+  },
+  "supported_formats": [
+    {
+      "name": "Markdown",
+      "extension": ".md",
+      "category": "文档",
+      "binary": false
+    },
+    {
+      "name": "HTML",
+      "extension": ".html",
+      "category": "网页",
+      "binary": false
+    },
+    {
+      "name": "Python",
+      "extension": ".py",
+      "category": "代码",
+      "binary": false
+    },
+    {
+      "name": "JSON",
+      "extension": ".json",
+      "category": "数据",
+      "binary": false
+    },
+    {
+      "name": "SVG",
+      "extension": ".svg",
+      "category": "图像",
+      "binary": false
+    }
+  ],
+  "settings": {
+    "theme": "light",
+    "language": "zh-CN",
+    "auto_save": true,
+    "max_file_size": 10485760
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "role": "administrator",
+      "active": true
+    },
+    {
+      "id": 2,
+      "username": "editor",
+      "role": "editor",
+      "active": true
+    },
+    {
+      "id": 3,
+      "username": "viewer",
+      "role": "viewer",
+      "active": false
+    }
+  ],
+  "metadata": {
+    "total_files": 7,
+    "last_updated": "2024-01-01T12:00:00Z"
+  }
+}

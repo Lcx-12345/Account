@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="文件格式演示项目" version="1.0.0">
+    <description>展示各种文件格式的示例</description>
+    <author name="演示作者" email="demo@example.com"/>
+    <license>MIT</license>
+
+    <settings>
+        <theme>light</theme>
+        <language>zh-CN</language>
+        <auto_save>true</auto_save>
+        <max_file_size>10485760</max_file_size>
+    </settings>
+
+    <supported_formats>
+        <format id="1" binary="false">
+            <name>Markdown</name>
+            <extension>.md</extension>
+            <category>文档</category>
+            <description>轻量级标记语言</description>
+        </format>
+        <format id="2" binary="false">
+            <name>HTML</name>
+            <extension>.html</extension>
+            <category>网页</category>
+            <description>超文本标记语言</description>
+        </format>
+        <format id="3" binary="false">
+            <name>Python</name>
+            <extension>.py</extension>
+            <category>代码</category>
+            <description>Python编程语言</description>
+        </format>
+        <format id="4" binary="false">
+            <name>JSON</name>
+            <extension>.json</extension>
+            <category>数据</category>
+            <description>JavaScript对象表示法</description>
+        </format>
+        <format id="5" binary="false">
+            <name>SVG</name>
+            <extension>.svg</extension>
+            <category>图像</category>
+            <description>可缩放矢量图形</description>
+        </format>
+    </supported_formats>
+
+    <users>
+        <user id="1" active="true">
+            <username>admin</username>
+            <role>administrator</role>
+            <permissions>
+                <permission>read</permission>
+                <permission>write</permission>
+                <permission>delete</permission>
+            </permissions>
+        </user>
+        <user id="2" active="true">
+            <username>editor</username>
+            <role>editor</role>
+            <permissions>
+                <permission>read</permission>
+                <permission>write</permission>
+            </permissions>
+        </user>
+        <user id="3" active="false">
+            <username>viewer</username>
+            <role>viewer</role>
+            <permissions>
+                <permission>read</permission>
+            </permissions>
+        </user>
+    </users>
+
+    <metadata>
+        <total_files>7</total_files>
+        <last_updated>2024-01-01T12:00:00Z</last_updated>
+    </metadata>
+</project>

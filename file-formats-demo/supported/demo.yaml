@@ -1,0 +1,92 @@
+project:
+  name: 文件格式演示项目
+  version: 1.0.0
+  description: 展示各种文件格式的示例
+  author:
+    name: 演示作者
+    email: demo@example.com
+  license: MIT
+  tags:
+    - demo
+    - file-formats
+    - examples
+
+settings:
+  theme: light
+  language: zh-CN
+  auto_save: true
+  max_file_size: 10485760
+  features:
+    - markdown: true
+    - html: true
+    - python: true
+    - json: true
+    - svg: true
+
+supported_formats:
+  - name: Markdown
+    extension: .md
+    category: 文档
+    binary: false
+    description: 轻量级标记语言
+  - name: HTML
+    extension: .html
+    category: 网页
+    binary: false
+    description: 超文本标记语言
+  - name: Python
+    extension: .py
+    category: 代码
+    binary: false
+    description: Python 编程语言
+  - name: JSON
+    extension: .json
+    category: 数据
+    binary: false
+    description: JavaScript 对象表示法
+  - name: SVG
+    extension: .svg
+    category: 图像
+    binary: false
+    description: 可缩放矢量图形
+
+users:
+  - id: 1
+    username: admin
+    role: administrator
+    active: true
+    permissions:
+      - read
+      - write
+      - delete
+  - id: 2
+    username: editor
+    role: editor
+    active: true
+    permissions:
+      - read
+      - write
+  - id: 3
+    username: viewer
+    role: viewer
+    active: false
+    permissions:
+      - read
+
+database:
+  host: localhost
+  port: 5432
+  name: file_demo
+  username: dbuser
+  password: secret
+
+servers:
+  production:
+    host: prod.example.com
+    port: 8080
+  staging:
+    host: staging.example.com
+    port: 8081
+  development:
+    host: localhost
+    port: 3000

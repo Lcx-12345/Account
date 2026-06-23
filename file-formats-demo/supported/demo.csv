@@ -1,0 +1,11 @@
+id,name,category,extension,binary,description
+1,Markdown,文档,.md,false,轻量级标记语言
+2,HTML,网页,.html,false,超文本标记语言
+3,Python,代码,.py,false,Python编程语言
+4,JSON,数据,.json,false,JavaScript对象表示法
+5,SVG,图像,.svg,false,可缩放矢量图形
+6,CSS,样式,.css,false,层叠样式表
+7,JavaScript,代码,.js,false,Web脚本语言
+8,XML,数据,.xml,false,可扩展标记语言
+9,CSV,数据,.csv,false,逗号分隔值
+10,YAML,数据,.yaml,false,人类可读的数据序列化格式
